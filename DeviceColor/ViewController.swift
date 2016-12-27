@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
                 
         let device = UIDevice.current
-        print(device.deviceInfoForKey(key: "DeviceColor"))
+        print(device.deviceInfoForKey("DeviceColor"))
     }
     
 }

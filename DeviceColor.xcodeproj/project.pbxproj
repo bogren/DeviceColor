@@ -11,7 +11,6 @@
 		809FC3AD1D56582F000F3763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809FC3A51D56582F000F3763 /* Assets.xcassets */; };
 		809FC3AE1D56582F000F3763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809FC3A61D56582F000F3763 /* LaunchScreen.storyboard */; };
 		809FC3AF1D56582F000F3763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809FC3A81D56582F000F3763 /* Main.storyboard */; };
-		809FC3B01D56582F000F3763 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 809FC3AA1D56582F000F3763 /* Info.plist */; };
 		809FC3B11D56582F000F3763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809FC3AB1D56582F000F3763 /* ViewController.swift */; };
 		809FC3B31D565875000F3763 /* UIDevice+DeviceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809FC3B21D565875000F3763 /* UIDevice+DeviceColor.swift */; };
 /* End PBXBuildFile section */
@@ -95,12 +94,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Emil Bogren";
 				TargetAttributes = {
 					809FC38C1D55D698000F3763 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = FY2ASZBNJ4;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,7 +131,6 @@
 				809FC3AD1D56582F000F3763 /* Assets.xcassets in Resources */,
 				809FC3AF1D56582F000F3763 /* Main.storyboard in Resources */,
 				809FC3AE1D56582F000F3763 /* LaunchScreen.storyboard in Resources */,
-				809FC3B01D56582F000F3763 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +187,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -237,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +307,7 @@
 				809FC3A11D55D699000F3763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
